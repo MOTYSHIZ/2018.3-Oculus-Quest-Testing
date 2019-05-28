@@ -9453,7 +9453,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5051221388752692276}
   m_Layer: 0
-  m_Name: VRTK Kit
+  m_Name: Default VRTK Kit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10587,71 +10587,6 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 224625267547479968, guid: fbf64c9b9fdd96145aef689424c29139,
-        type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224625267547479968, guid: fbf64c9b9fdd96145aef689424c29139,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224625267547479968, guid: fbf64c9b9fdd96145aef689424c29139,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224625267547479968, guid: fbf64c9b9fdd96145aef689424c29139,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224625267547479968, guid: fbf64c9b9fdd96145aef689424c29139,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224625267547479968, guid: fbf64c9b9fdd96145aef689424c29139,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224664456301021822, guid: fbf64c9b9fdd96145aef689424c29139,
-        type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224664456301021822, guid: fbf64c9b9fdd96145aef689424c29139,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224664456301021822, guid: fbf64c9b9fdd96145aef689424c29139,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224664456301021822, guid: fbf64c9b9fdd96145aef689424c29139,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224664456301021822, guid: fbf64c9b9fdd96145aef689424c29139,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224664456301021822, guid: fbf64c9b9fdd96145aef689424c29139,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224908770271916926, guid: fbf64c9b9fdd96145aef689424c29139,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 114461850854314788, guid: fbf64c9b9fdd96145aef689424c29139,
         type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -11188,6 +11123,10 @@ PrefabInstance:
     - target: {fileID: 1079310243983898, guid: 104a994d0ce9cd34b8d18fc9bb322523, type: 3}
       propertyPath: m_Name
       value: UnityXR.Oculus.RightController
+      objectReference: {fileID: 0}
+    - target: {fileID: 1079310243983898, guid: 104a994d0ce9cd34b8d18fc9bb322523, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4017585162637238, guid: 104a994d0ce9cd34b8d18fc9bb322523, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12078,10 +12017,6 @@ PrefabInstance:
     - target: {fileID: 1656971749961232, guid: 0bb103b515847514e866aa26155cc4b8, type: 3}
       propertyPath: m_Name
       value: UnityXR.OpenVR.RightController
-      objectReference: {fileID: 0}
-    - target: {fileID: 1656971749961232, guid: 0bb103b515847514e866aa26155cc4b8, type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4651969063634370, guid: 0bb103b515847514e866aa26155cc4b8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13311,10 +13246,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: UnityXR.OpenVR.LeftController
       objectReference: {fileID: 0}
-    - target: {fileID: 1738006070147046, guid: c3550842e5f2a1245ba3fac2bdb34c9f, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4161404090936782, guid: c3550842e5f2a1245ba3fac2bdb34c9f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -14039,6 +13970,10 @@ PrefabInstance:
     - target: {fileID: 1848063237393388, guid: 9a9e9d48785692d478ce27c8f0a5d31e, type: 3}
       propertyPath: m_Name
       value: UnityXR.Oculus.LeftController
+      objectReference: {fileID: 0}
+    - target: {fileID: 1848063237393388, guid: 9a9e9d48785692d478ce27c8f0a5d31e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4414840411511982, guid: 9a9e9d48785692d478ce27c8f0a5d31e, type: 3}
       propertyPath: m_LocalPosition.x

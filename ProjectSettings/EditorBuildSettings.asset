@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: d1397229b12d95e43b8975a0d2089749
+  - enabled: 0
+    path: Assets/VRTK/Samples/Farm/Scenes/ExampleScene.unity
+    guid: 33a770456cf624c41838a4ec1a1de55f
   m_configObjects: {}
