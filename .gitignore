@@ -4,6 +4,7 @@
 [Bb]uild/
 [Bb]uilds/
 Assets/AssetStoreTools*
+Assets/Install Bolt/
 
 # Visual Studio cache directory
 .vs/
