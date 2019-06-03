@@ -1,5 +1,6 @@
 ﻿using Photon.Pun;
 using Photon.Realtime;
+using Hashtable = ExitGames.Client.Photon.Hashtable;
 using System.IO;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -218,7 +219,20 @@ public class PhotonRoom : MonoBehaviourPunCallbacks, IInRoomCallbacks {
     void RPC_CreatePlayer()
     {
         //PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "PhotonNetworkPlayer"), transform.position, Quaternion.identity, 0);
-        PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "NetworkVRIKPlayer"), transform.position, Quaternion.identity, 0);
+        //PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "NetworkVRIKPlayer"), transform.position, Quaternion.identity, 0);
 
+    }
+
+    public static void SetCustomProperties(string PropertyToSet, string PropertyValue)
+    {
+        Hashtable hash = new Hashtable();
+        hash.Add(PropertyToSet, PropertyValue);
+
+        PhotonNetwork.CurrentRoom.SetCustomProperties(hash);
+    }
+
+    public static string GetCustomProperties(string PropertyToGet)
+    {
+        return (string)PhotonNetwork.CurrentRoom.CustomProperties[PropertyToGet];
     }
 }

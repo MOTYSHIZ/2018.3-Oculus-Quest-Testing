@@ -1,5 +1,49 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &492500467
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 492500468}
+  - component: {fileID: 492500469}
+  m_Layer: 0
+  m_Name: Collider (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &492500468
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 492500467}
+  m_LocalRotation: {x: -0.27059817, y: -0.27059835, z: -0.6532811, w: 0.65328175}
+  m_LocalPosition: {x: 0.00398, y: 0, z: -0}
+  m_LocalScale: {x: 0.021200167, y: 0.0051495507, z: 0.021200167}
+  m_Children: []
+  m_Father: {fileID: 3402082935356567647}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -45.000004, y: 0, z: -90.00001}
+--- !u!65 &492500469
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 492500467}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.72, y: 1.76, z: 0.72}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &343695434223760623
 GameObject:
   m_ObjectHideFlags: 0
@@ -131,19 +175,6 @@ Transform:
   m_Father: {fileID: 3942597458405445167}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &3402082935569492930
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3402082935356992639}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.009301547, y: 0.020461803, z: 0.020461809}
-  m_Center: {x: 0.0040295166, y: 0.0000001214322, z: -0.000000059589965}
 --- !u!1 &3648890395573774145
 GameObject:
   m_ObjectHideFlags: 0
@@ -661,6 +692,50 @@ MonoBehaviour:
   currentIndex: 0
   elements:
   - {fileID: 337918268069208426}
+--- !u!1 &7915693861780371091
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6050034420292219403}
+  - component: {fileID: 7915693861780371092}
+  m_Layer: 0
+  m_Name: Collider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6050034420292219403
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7915693861780371091}
+  m_LocalRotation: {x: -0.00000011920925, y: -0.00000011920925, z: -0.7071066, w: 0.70710695}
+  m_LocalPosition: {x: 0.00398, y: 0, z: -0}
+  m_LocalScale: {x: 0.021200167, y: 0.0051495507, z: 0.021200167}
+  m_Children: []
+  m_Father: {fileID: 3402082935356567647}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90.00001}
+--- !u!65 &7915693861780371092
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7915693861780371091}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.72, y: 1.76, z: 0.72}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8643879694368268037
 GameObject:
   m_ObjectHideFlags: 0
@@ -931,10 +1006,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1059393306758780609}
     m_Modifications:
-    - target: {fileID: 100000, guid: dc904cb5fbf709549bfbc19d81aefb1c, type: 3}
-      propertyPath: m_Name
-      value: Proto_Robot_Wheel
-      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dc904cb5fbf709549bfbc19d81aefb1c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -991,17 +1062,23 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.2700026
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dc904cb5fbf709549bfbc19d81aefb1c, type: 3}
+      propertyPath: m_Name
+      value: Proto_Robot_Wheel
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: dc904cb5fbf709549bfbc19d81aefb1c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c0b8957656654a843876b7eb74dbd051, type: 2}
+    - target: {fileID: 2300000, guid: dc904cb5fbf709549bfbc19d81aefb1c, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 386abf97bf9a38249b87e5f9b96280f5, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc904cb5fbf709549bfbc19d81aefb1c, type: 3}
 --- !u!4 &3402082935356567647 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: dc904cb5fbf709549bfbc19d81aefb1c,
-    type: 3}
-  m_PrefabInstance: {fileID: 3402082935356959455}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &3402082935356992639 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100000, guid: dc904cb5fbf709549bfbc19d81aefb1c,
     type: 3}
   m_PrefabInstance: {fileID: 3402082935356959455}
   m_PrefabAsset: {fileID: 0}
@@ -1012,17 +1089,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3186371444287455865}
     m_Modifications:
-    - target: {fileID: 5364294047523183225, guid: 57cea8fee147c654397a0685154f498e,
-        type: 3}
-      propertyPath: m_Name
-      value: Interactable.TouchReceiver
-      objectReference: {fileID: 0}
-    - target: {fileID: 3899411491897718271, guid: 57cea8fee147c654397a0685154f498e,
-        type: 3}
-      propertyPath: _facade
-      value: 
-      objectReference: {fileID: 1588786030056821694, guid: 240fdd985e025cb459f73d2b1bb7b341,
-        type: 3}
     - target: {fileID: 3899411491897718271, guid: 57cea8fee147c654397a0685154f498e,
         type: 3}
       propertyPath: facade
@@ -1084,14 +1150,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5364294047523183225, guid: 57cea8fee147c654397a0685154f498e,
+        type: 3}
+      propertyPath: m_Name
+      value: Interactable.TouchReceiver
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57cea8fee147c654397a0685154f498e, type: 3}
---- !u!4 &2580342494691079064 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1210858528001014937, guid: 57cea8fee147c654397a0685154f498e,
-    type: 3}
-  m_PrefabInstance: {fileID: 3675749532503150337}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &369185966000913150 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3899411491897718271, guid: 57cea8fee147c654397a0685154f498e,
@@ -1104,6 +1169,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6631cbd1a0377e4dafb140bd9df0a9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &2580342494691079064 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1210858528001014937, guid: 57cea8fee147c654397a0685154f498e,
+    type: 3}
+  m_PrefabInstance: {fileID: 3675749532503150337}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5560936800372962189
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1111,11 +1182,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4923522816228050188}
     m_Modifications:
-    - target: {fileID: 5701689818747509894, guid: 702caa48c730e92469a1c5144fd8ed46,
-        type: 3}
-      propertyPath: m_Name
-      value: Interactable.GrabAction.FollowAction
-      objectReference: {fileID: 0}
     - target: {fileID: 2857845961663347754, guid: 702caa48c730e92469a1c5144fd8ed46,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1170,6 +1236,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5701689818747509894, guid: 702caa48c730e92469a1c5144fd8ed46,
+        type: 3}
+      propertyPath: m_Name
+      value: Interactable.GrabAction.FollowAction
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 702caa48c730e92469a1c5144fd8ed46, type: 3}
@@ -1260,12 +1331,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c72a79d4e6496ce4a8d8eff370fb614e, type: 3}
---- !u!4 &3574535005887969565 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6786077343534509636, guid: c72a79d4e6496ce4a8d8eff370fb614e,
-    type: 3}
-  m_PrefabInstance: {fileID: 8050098322516858713}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &4715448036039289110 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3370683482093829711, guid: c72a79d4e6496ce4a8d8eff370fb614e,
@@ -1278,6 +1343,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4013e20688e192747ae18baff553ede7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &3574535005887969565 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6786077343534509636, guid: c72a79d4e6496ce4a8d8eff370fb614e,
+    type: 3}
+  m_PrefabInstance: {fileID: 8050098322516858713}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8512928622884083416
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1285,11 +1356,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4057345595023449032}
     m_Modifications:
-    - target: {fileID: 8083731742221670193, guid: bf395407a1df60d4ebaad52cf81795fd,
-        type: 3}
-      propertyPath: m_Name
-      value: Interactable.GrabEvent.Stack
-      objectReference: {fileID: 0}
     - target: {fileID: 1390912125830776597, guid: bf395407a1df60d4ebaad52cf81795fd,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1345,14 +1411,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8083731742221670193, guid: bf395407a1df60d4ebaad52cf81795fd,
+        type: 3}
+      propertyPath: m_Name
+      value: Interactable.GrabEvent.Stack
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bf395407a1df60d4ebaad52cf81795fd, type: 3}
---- !u!4 &7308915924561531341 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1390912125830776597, guid: bf395407a1df60d4ebaad52cf81795fd,
-    type: 3}
-  m_PrefabInstance: {fileID: 8512928622884083416}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &8795900940058096583 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 878956431874532639, guid: bf395407a1df60d4ebaad52cf81795fd,
@@ -1365,3 +1430,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36a13d018f05c4042b1942f33eabbfb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &7308915924561531341 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1390912125830776597, guid: bf395407a1df60d4ebaad52cf81795fd,
+    type: 3}
+  m_PrefabInstance: {fileID: 8512928622884083416}
+  m_PrefabAsset: {fileID: 0}
