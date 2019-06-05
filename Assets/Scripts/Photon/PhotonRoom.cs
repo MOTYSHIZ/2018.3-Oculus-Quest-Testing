@@ -2,6 +2,7 @@
 using Photon.Realtime;
 using Hashtable = ExitGames.Client.Photon.Hashtable;
 using System.IO;
+using Bolt;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -226,8 +227,10 @@ public class PhotonRoom : MonoBehaviourPunCallbacks, IInRoomCallbacks {
     public static void SetCustomProperties(string PropertyToSet, string PropertyValue)
     {
         Hashtable hash = new Hashtable();
-        hash.Add(PropertyToSet, PropertyValue);
 
+        hash[PropertyToSet] = PropertyValue;
+        //hash.Add(PropertyToSet, PropertyValue);
+        
         PhotonNetwork.CurrentRoom.SetCustomProperties(hash);
     }
 
@@ -235,4 +238,13 @@ public class PhotonRoom : MonoBehaviourPunCallbacks, IInRoomCallbacks {
     {
         return (string)PhotonNetwork.CurrentRoom.CustomProperties[PropertyToGet];
     }
+
+    override public void OnRoomPropertiesUpdate(Hashtable propertiesThatChanged)
+    {
+        //Can probably make this more performant in the future by making it only "Find" if GameManager object is null
+        //Also, for some reason, this callback is being called three times initially.
+        CustomEvent.Trigger(GameObject.Find("GameManager"), "RoomPropertiesUpdated");
+    }
+
+    
 }
