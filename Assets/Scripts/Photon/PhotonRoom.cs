@@ -234,9 +234,24 @@ public class PhotonRoom : MonoBehaviourPunCallbacks, IInRoomCallbacks {
         PhotonNetwork.CurrentRoom.SetCustomProperties(hash);
     }
 
+    public static void SetCustomProperties(string PropertyToSet, int PropertyValue)
+    {
+        Hashtable hash = new Hashtable();
+
+        hash[PropertyToSet] = PropertyValue;
+        //hash.Add(PropertyToSet, PropertyValue);
+
+        PhotonNetwork.CurrentRoom.SetCustomProperties(hash);
+    }
+
     public static string GetCustomProperties(string PropertyToGet)
     {
         return (string)PhotonNetwork.CurrentRoom.CustomProperties[PropertyToGet];
+    }
+
+    public static int GetCustomPropertiesInt(string PropertyToGet)
+    {
+        return (int)PhotonNetwork.CurrentRoom.CustomProperties[PropertyToGet];
     }
 
     override public void OnRoomPropertiesUpdate(Hashtable propertiesThatChanged)
