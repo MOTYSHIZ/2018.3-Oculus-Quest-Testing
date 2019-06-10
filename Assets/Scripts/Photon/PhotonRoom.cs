@@ -258,7 +258,7 @@ public class PhotonRoom : MonoBehaviourPunCallbacks, IInRoomCallbacks {
     {
         //Can probably make this more performant in the future by making it only "Find" if GameManager object is null
         //Also, for some reason, this callback is being called three times initially.
-        CustomEvent.Trigger(GameObject.Find("GameManager"), "RoomPropertiesUpdated");
+        CustomEvent.Trigger(GameObject.Find("GameManager"), "RoomPropertiesUpdated", propertiesThatChanged);
     }
 
     
