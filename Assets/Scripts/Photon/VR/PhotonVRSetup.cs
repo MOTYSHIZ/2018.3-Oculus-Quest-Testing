@@ -60,10 +60,6 @@ public class PhotonVRSetup : MonoBehaviourPunCallbacks {
 
 
         GetComponent<PhotonRPCObjectTracker>().startTracking(vRSet.gameObject);
-        //head.GetComponent<PhotonRPCObjectTracker>().startTracking(VRTK_DeviceFinder.HeadsetTransform().gameObject);
-        //left.GetComponent<PhotonRPCObjectTracker>().startTracking(VRTK_DeviceFinder.GetControllerLeftHand());
-        //right.GetComponent<PhotonRPCObjectTracker>().startTracking(VRTK_DeviceFinder.GetControllerRightHand());
-
         head.GetComponent<PhotonRPCObjectTracker>().startTracking(trackedAliasFacade.HeadsetAlias.gameObject);
         left.GetComponent<PhotonRPCObjectTracker>().startTracking(trackedAliasFacade.LeftControllerAlias.gameObject);
         right.GetComponent<PhotonRPCObjectTracker>().startTracking(trackedAliasFacade.RightControllerAlias.gameObject);
