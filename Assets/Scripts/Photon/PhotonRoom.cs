@@ -220,7 +220,7 @@ public class PhotonRoom : MonoBehaviourPunCallbacks, IInRoomCallbacks {
     void RPC_CreatePlayer()
     {
         //PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "PhotonNetworkPlayer"), transform.position, Quaternion.identity, 0);
-        //PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "NetworkVRIKPlayer"), transform.position, Quaternion.identity, 0);
+        PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "NetworkVRIKPlayer"), transform.position, Quaternion.identity, 0);
 
     }
 

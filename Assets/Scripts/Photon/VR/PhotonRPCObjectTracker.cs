@@ -8,6 +8,8 @@ using VRTK;
 public class PhotonRPCObjectTracker : MonoBehaviourPun {
     
     public GameObject trackedObject = null;
+    public bool trackPositionOnly = false;
+
 
     public void startTracking(GameObject trackedObject)
     {
@@ -22,7 +24,7 @@ public class PhotonRPCObjectTracker : MonoBehaviourPun {
     {
         while (true)
         {
-            transform.rotation = trackedObject.transform.rotation;
+            if(!trackPositionOnly)transform.rotation = trackedObject.transform.rotation;
             transform.position = trackedObject.transform.position;
             yield return null;
         }

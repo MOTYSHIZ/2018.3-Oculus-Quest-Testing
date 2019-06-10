@@ -33,4 +33,10 @@ public static class SimpleEditorUtils
         EditorSceneManager.OpenScene("Assets/Scenes/SampleScene.unity");
     }
 
+    [MenuItem("CustomTools/Go to Launcher Scene")]
+    public static void goToLauncherScene()
+    {
+        EditorSceneManager.OpenScene("Assets/Scenes/Launcher.unity");
+    }
+
 }

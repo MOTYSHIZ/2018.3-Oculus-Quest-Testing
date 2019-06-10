@@ -1,0 +1,322 @@
+fileFormatVersion: 2
+guid: d3d00a6b00aa098488694519203b01e0
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Body
+    100004: Breast_L
+    100006: Breast_R
+    100008: Chest
+    100010: Eye_L
+    100012: Eye_R
+    100014: HairJoint_100bed44_0071_437c_Be36_Abdb58278ef4
+    100016: HairJoint_228d3cb8_Acdc_423e_Ba0b_348633783c8d
+    100018: HairJoint_245c78de_5156_428a_A204_D0d365e05ba6
+    100020: HairJoint_2e967519_8070_4a03_8818_5a50fe8746a1
+    100022: HairJoint_4308202c_Fb5a_4cd4_B888_88df8484cbfd
+    100024: HairJoint_451c1c8e_679d_4e14_A7c3_Af0233d6b161
+    100026: HairJoint_590316aa_6660_4d9e_A098_Ec9a12516c6a
+    100028: HairJoint_624404ef_6900_4636_A7e8_8f21a085e1a1
+    100030: HairJoint_84128ad6_F9ff_4606_A254_0ae6a42fa328
+    100032: HairJoint_874ec9f8_4eb7_4589_91aa_Ee4f1c846494
+    100034: HairJoint_917884bc_08c5_497a_9810_394d8cc0c586
+    100036: HairJoint_92f42ad7_3cfb_4a57_92ce_Fb7949e9fd63
+    100038: HairJoint_97f1861b_4225_48a8_82a7_83298efe6d1d
+    100040: HairJoint_9afbe9a6_9679_4e3e_93eb_7fbac488fb0b
+    100042: HairJoint_A29644ee_C783_4f9e_9709_69cbf5371270
+    100044: HairJoint_A971fbe9_7c02_4476_A0ec_7680aa4d0a33
+    100046: HairJoint_A9ff6aaa_Bb4d_492a_9e81_3c1ebc305fca
+    100048: HairJoint_B245d2ac_F22a_43f2_81b5_4331190030f9
+    100050: HairJoint_B2ad7ba8_6449_4705_8265_Acf10ff1e0b6
+    100052: HairJoint_Bbbbeaec_2e88_4187_A45f_82397e478b9b
+    100054: HairJoint_Bcd4d0d2_5d6c_439a_8ad4_69ccf94473b7
+    100056: HairJoint_C2c155fc_F638_43ac_Bd5d_C8bcfcdb5bfe
+    100058: HairJoint_C771785e_D4a4_4135_9ea6_863e36f4444a
+    100060: HairJoint_Cc989918_F51f_4688_A895_31d82ba3fb7c
+    100062: HairJoint_Cd29f972_776f_4841_9dda_98c980b83692
+    100064: HairJoint_Ce79bc1a_A9ea_4c1a_A6f9_423e81deedf3
+    100066: HairJoint_Cf45c901_867c_415d_97d6_F56902baa811
+    100068: HairJoint_D32f57a3_131b_424d_A952_D620b99f4c2e
+    100070: HairJoint_D487b367_682b_4f3a_8db7_A0d018f244ab
+    100072: HairJoint_Da4dea69_48ae_454c_Ba2e_Bc7dfe9644ee
+    100074: HairJoint_E1cb9281_C290_4f72_8e0f_833f3b3a9b5c
+    100076: HairJoint_E4b0b4c5_3f6a_478d_Adca_D4d03d2deecc
+    100078: HairJoint_F42abeae_8c90_4c62_Acb0_F421b9ff20ae
+    100080: HairJoint_F5673e45_468b_4385_9e7f_884dd40a42d9
+    100082: HairJoint_Ff1da007_Aff2_487a_A076_Ab49f4cbe13f
+    100084: Head
+    100086: Hips
+    100088: IndexFinger1_L
+    100090: IndexFinger1_R
+    100092: IndexFinger2_L
+    100094: IndexFinger2_R
+    100096: IndexFinger3_L
+    100098: IndexFinger3_R
+    100100: J_Sec_L_Bust2
+    100102: J_Sec_L_LowerArm
+    100104: J_Sec_L_LowerLeg
+    100106: J_Sec_L_UpperArm
+    100108: J_Sec_L_UpperLeg
+    100110: J_Sec_R_Bust2
+    100112: J_Sec_R_LowerArm
+    100114: J_Sec_R_LowerLeg
+    100116: J_Sec_R_UpperArm
+    100118: J_Sec_R_UpperLeg
+    100120: Left ankle
+    100122: Left arm
+    100124: Left elbow
+    100126: Left knee
+    100128: Left leg
+    100130: Left shoulder
+    100132: Left toe
+    100134: Left wrist
+    100136: LeftEye
+    100138: LittleFinger1_L
+    100140: LittleFinger1_R
+    100142: LittleFinger2_L
+    100144: LittleFinger2_R
+    100146: LittleFinger3_L
+    100148: LittleFinger3_R
+    100150: MiddleFinger1_L
+    100152: MiddleFinger1_R
+    100154: MiddleFinger2_L
+    100156: MiddleFinger2_R
+    100158: MiddleFinger3_L
+    100160: MiddleFinger3_R
+    100162: Neck
+    100164: Right ankle
+    100166: Right arm
+    100168: Right elbow
+    100170: Right knee
+    100172: Right leg
+    100174: Right shoulder
+    100176: Right toe
+    100178: Right wrist
+    100180: RightEye
+    100182: RingFinger1_L
+    100184: RingFinger1_R
+    100186: RingFinger2_L
+    100188: RingFinger2_R
+    100190: RingFinger3_L
+    100192: RingFinger3_R
+    100194: Spine
+    100196: Thumb0_L
+    100198: Thumb0_R
+    100200: Thumb1_L
+    100202: Thumb1_R
+    100204: Thumb2_L
+    100206: Thumb2_R
+    100208: //RootNode
+    400000: Armature
+    400002: Body
+    400004: Breast_L
+    400006: Breast_R
+    400008: Chest
+    400010: Eye_L
+    400012: Eye_R
+    400014: HairJoint_100bed44_0071_437c_Be36_Abdb58278ef4
+    400016: HairJoint_228d3cb8_Acdc_423e_Ba0b_348633783c8d
+    400018: HairJoint_245c78de_5156_428a_A204_D0d365e05ba6
+    400020: HairJoint_2e967519_8070_4a03_8818_5a50fe8746a1
+    400022: HairJoint_4308202c_Fb5a_4cd4_B888_88df8484cbfd
+    400024: HairJoint_451c1c8e_679d_4e14_A7c3_Af0233d6b161
+    400026: HairJoint_590316aa_6660_4d9e_A098_Ec9a12516c6a
+    400028: HairJoint_624404ef_6900_4636_A7e8_8f21a085e1a1
+    400030: HairJoint_84128ad6_F9ff_4606_A254_0ae6a42fa328
+    400032: HairJoint_874ec9f8_4eb7_4589_91aa_Ee4f1c846494
+    400034: HairJoint_917884bc_08c5_497a_9810_394d8cc0c586
+    400036: HairJoint_92f42ad7_3cfb_4a57_92ce_Fb7949e9fd63
+    400038: HairJoint_97f1861b_4225_48a8_82a7_83298efe6d1d
+    400040: HairJoint_9afbe9a6_9679_4e3e_93eb_7fbac488fb0b
+    400042: HairJoint_A29644ee_C783_4f9e_9709_69cbf5371270
+    400044: HairJoint_A971fbe9_7c02_4476_A0ec_7680aa4d0a33
+    400046: HairJoint_A9ff6aaa_Bb4d_492a_9e81_3c1ebc305fca
+    400048: HairJoint_B245d2ac_F22a_43f2_81b5_4331190030f9
+    400050: HairJoint_B2ad7ba8_6449_4705_8265_Acf10ff1e0b6
+    400052: HairJoint_Bbbbeaec_2e88_4187_A45f_82397e478b9b
+    400054: HairJoint_Bcd4d0d2_5d6c_439a_8ad4_69ccf94473b7
+    400056: HairJoint_C2c155fc_F638_43ac_Bd5d_C8bcfcdb5bfe
+    400058: HairJoint_C771785e_D4a4_4135_9ea6_863e36f4444a
+    400060: HairJoint_Cc989918_F51f_4688_A895_31d82ba3fb7c
+    400062: HairJoint_Cd29f972_776f_4841_9dda_98c980b83692
+    400064: HairJoint_Ce79bc1a_A9ea_4c1a_A6f9_423e81deedf3
+    400066: HairJoint_Cf45c901_867c_415d_97d6_F56902baa811
+    400068: HairJoint_D32f57a3_131b_424d_A952_D620b99f4c2e
+    400070: HairJoint_D487b367_682b_4f3a_8db7_A0d018f244ab
+    400072: HairJoint_Da4dea69_48ae_454c_Ba2e_Bc7dfe9644ee
+    400074: HairJoint_E1cb9281_C290_4f72_8e0f_833f3b3a9b5c
+    400076: HairJoint_E4b0b4c5_3f6a_478d_Adca_D4d03d2deecc
+    400078: HairJoint_F42abeae_8c90_4c62_Acb0_F421b9ff20ae
+    400080: HairJoint_F5673e45_468b_4385_9e7f_884dd40a42d9
+    400082: HairJoint_Ff1da007_Aff2_487a_A076_Ab49f4cbe13f
+    400084: Head
+    400086: Hips
+    400088: IndexFinger1_L
+    400090: IndexFinger1_R
+    400092: IndexFinger2_L
+    400094: IndexFinger2_R
+    400096: IndexFinger3_L
+    400098: IndexFinger3_R
+    400100: J_Sec_L_Bust2
+    400102: J_Sec_L_LowerArm
+    400104: J_Sec_L_LowerLeg
+    400106: J_Sec_L_UpperArm
+    400108: J_Sec_L_UpperLeg
+    400110: J_Sec_R_Bust2
+    400112: J_Sec_R_LowerArm
+    400114: J_Sec_R_LowerLeg
+    400116: J_Sec_R_UpperArm
+    400118: J_Sec_R_UpperLeg
+    400120: Left ankle
+    400122: Left arm
+    400124: Left elbow
+    400126: Left knee
+    400128: Left leg
+    400130: Left shoulder
+    400132: Left toe
+    400134: Left wrist
+    400136: LeftEye
+    400138: LittleFinger1_L
+    400140: LittleFinger1_R
+    400142: LittleFinger2_L
+    400144: LittleFinger2_R
+    400146: LittleFinger3_L
+    400148: LittleFinger3_R
+    400150: MiddleFinger1_L
+    400152: MiddleFinger1_R
+    400154: MiddleFinger2_L
+    400156: MiddleFinger2_R
+    400158: MiddleFinger3_L
+    400160: MiddleFinger3_R
+    400162: Neck
+    400164: Right ankle
+    400166: Right arm
+    400168: Right elbow
+    400170: Right knee
+    400172: Right leg
+    400174: Right shoulder
+    400176: Right toe
+    400178: Right wrist
+    400180: RightEye
+    400182: RingFinger1_L
+    400184: RingFinger1_R
+    400186: RingFinger2_L
+    400188: RingFinger2_R
+    400190: RingFinger3_L
+    400192: RingFinger3_R
+    400194: Spine
+    400196: Thumb0_L
+    400198: Thumb0_R
+    400200: Thumb1_L
+    400202: Thumb1_R
+    400204: Thumb2_L
+    400206: Thumb2_R
+    400208: //RootNode
+    2100000: F00_000_Hair_00_HAIR_01
+    2100002: F00_000_Hair_00_HAIR_02
+    2100004: F00_000_Hair_00_HAIR_03
+    2100006: F00_000_00_FaceMouth_00_FACE
+    2100008: F00_000_00_EyeWhite_00_EYE
+    2100010: F00_000_00_FaceEyeline_00_FACE
+    2100012: F00_000_00_FaceEyelash_00_FACE
+    2100014: F00_000_00_FaceBrow_00_FACE
+    2100016: F00_000_00_EyeIris_00_EYE
+    2100018: F00_000_00_EyeHighlight_00_EYE
+    2100020: F00_000_00_Face_00_SKIN
+    2100022: F00_000_00_EyeExtra_01_EYE
+    2100024: F00_002_02_Body_00_SKIN
+    2100026: F00_003_02_Tops_01_CLOTH
+    2100028: F00_003_01_Bottoms_01_CLOTH
+    2100030: F00_003_01_Accessory_01_CLOTH
+    2100032: F00_001_01_Shoes_01_CLOTH
+    2100034: F00_000_HairBack_00_HAIR
+    4300000: Body
+    9500000: //RootNode
+    13700000: Body
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
