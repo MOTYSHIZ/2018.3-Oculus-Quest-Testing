@@ -412,9 +412,40 @@ namespace VRInteraction
 					return true;
 				if (AXKeyOculus == action && AXPressed)
 					return true;
+                if (EventAction)
+                    return true;
 			}
 			return false;
 		}
+
+        //Used to send a VRInput action via an event. Useful for VRTKv4
+        public void SendActionViaEvent(string action)
+        {
+            if (action.Contains("Released"))
+            {
+                EventAction = false;
+            }
+            else
+            {
+                EventAction = true;
+            }
+
+            SendMessageToInteractor(action);
+        }
+
+        //Used by sendActionViaEvent() for ActionPressed to evaluate as true;
+        private bool eventAction;
+        virtual public bool EventAction
+        {
+            get
+            {
+                return eventAction;
+            }
+            set
+            {
+                eventAction = value;
+            }
+        }
 
 		virtual public bool TriggerPressed
 		{
